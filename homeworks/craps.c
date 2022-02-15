@@ -3,7 +3,6 @@
 #include<time.h>
 
 int main(){
-	
 	srand(time(NULL));
 	int x,y,z;
 	int score,temp;
