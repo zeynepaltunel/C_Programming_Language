@@ -20,7 +20,7 @@ int main(){
 	int end_index = n - 1, begin_index = n, size = 0, reverse_index = 0;
 	
 	// Size: 20
-	// PD eðlenceli bir ders
+	
 	for (; n >= 0; n--) {
 		if ( A[n] == ' ' ) {
 			begin_index = n + 1;
@@ -36,21 +36,6 @@ int main(){
 	memcpy(ptr2 + reverse_index, A, size);
 	
 	printf("%s", ptr2);
-	
-	//for(i=n; i!=0; i--){
-	//	*(ptr2+k)=*(ptr+i-1);
-	//	k++;
-	//}
-	//	i=0;
-	//	while(*(ptr2 + i)!=' '){
-	//		i++;
-	//	}
-	//	z=i;
-	//	for(m=0; m<=z; m++,i--){
-	//		*(ptr+m)=*(ptr2+i);
-	//	}
-	//	
-	//printf("%s", ptr);
 	
 	return 0;
 }
